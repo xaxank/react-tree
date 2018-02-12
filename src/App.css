@@ -1,0 +1,77 @@
+html,body, #root2 {
+    height:100%;
+}
+
+.App {
+  text-align: center;
+    height: 100%;
+}
+
+svg:not(:root) {
+  overflow:visible;
+}
+
+.connect-line {
+  fill:none;
+  stroke:black;
+  stroke-width:3;
+}
+
+.block-container {
+  // width:100%;
+  margin:0 auto;
+  display:table-cell;
+}
+
+.child-row {
+  // background:yellow;
+  margin:5px;
+}
+
+.block {
+  min-width: 125px;
+  margin: 5px;
+  cursor: pointer;
+  background: #00BCD4;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.block-btn {
+  padding: 5px;
+  border-left: 1px solid #eaeae7;
+}
+
+.block-employee {
+  display: block;
+  background: #6e9a70;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.binder {
+  border-top: 3px solid;
+    // width: 42.5%;
+    // margin-left: 33px;
+}
+
+.left-crop {
+  margin-left:49%;
+}
+
+.half-crop {
+  width:50%;
+}
+
+.hide {
+  display:none;
+}
+
+.nav-pad {
+  width: 10%;
+  height: 10%;
+  position: fixed;
+  bottom: 0;
+  background: grey;
+  opacity: .3;
+}
