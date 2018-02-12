@@ -1,5 +1,3 @@
-[TOC]
-
 # Introduction
 
 Sample project on hierarchy tree with react
